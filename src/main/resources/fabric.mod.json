@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpquiz",
+  "version": "${version}",
+  "name": "PvP Quiz",
+  "description": "After every PvP fight you have to answer a quiz question. Includes a GUI to add your own questions.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.pvpquiz.PvpQuizClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
